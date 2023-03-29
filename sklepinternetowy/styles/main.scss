@@ -87,6 +87,7 @@ header {
     position: fixed;
     width: 100vw;
     padding: 2rem 0;
+    height: 5rem;
     background-color: #161925;
     .header__container{
         @extend .inner--default;
@@ -113,6 +114,49 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
+
+    }
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar{
+    background-color: #161925;
+    height: 100vw;
+    width: 15vw ;
+    .sidebar__container{
+        padding: 10px;
+    }
+
+}
+.space2{
+    height: 5rem;
+}
+.product__tile{
+    height: 20rem;
+    width: 20rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.obraz{
+    height: 200px;
+    width: 200px;
+}
+.shop__products{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.mainpage{
+
+    .mainpage__container{
+        display: flex;
+        
 
     }
 }

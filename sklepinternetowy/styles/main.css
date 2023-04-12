@@ -36,9 +36,13 @@ body {
 .hero button, .hero .hero__container button {
   padding: 5px;
   background-color: #161925;
-  color: #D4F9F0;
+  color: black;
   border-color: #D4F9F0;
   border-style: solid;
+}
+
+.buttons {
+  color: black;
 }
 
 .carts, .carts .carts__container {

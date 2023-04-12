@@ -10,6 +10,7 @@ SystemClass::blockEntranceSigned("index.php");
 <?php SystemClass::printHead("./styles/main.css") ?>
 </head>
 <body>
+<div class="buttons">
     <form action="signIn.php" method="post"> 
         <label>E-Mail</label>
         <input type="email" name="email" id="">
@@ -22,5 +23,6 @@ SystemClass::blockEntranceSigned("index.php");
         echo "<p>Niepoprawny login lub hasło!</p>";
     }
     ?>
+    </buttons>
 </body>
 </html>
